@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="static/css/style.css" type="text/css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+          integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+
+    <title>Колян Бузуев</title>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row mt-3">
+        <a href="index1.html">
+            <button class="btn btn-warning" id="btn7">Лаб 2</button>
+        </a>
+        <div class="col-md-6">
+            <input class="form-control form-control-lg" id="inputForm">
+            <button class="btn btn-warning" id="btn1">Удалить все слова, состоящие более чем из 5 букв</button>
+            <hr>
+            <button class="btn btn-warning" id="btn2">Удалить наиболее часто встречающуюся букву</button>
+            <hr>
+            <button class="btn btn-warning" id="btn3">Удалить в предложении все цифры</button>
+            <hr>
+            <div class="colorPicker">
+                <label for="exampleColorInput" class="form-label">Выберите ваш цвет</label>
+                <input type="color" class="form-control form-control-color" id="exampleColorInput"
+                       title="Выберите ваш цвет" value="#20c997">
+            </div>
+            <button class="btn btn-warning" id="btn4">Измененить цвет фона</button>
+            <hr>
+            <button class="btn btn-warning" id="btn5">Получить дату и время на новой вкладке</button>
+            <hr>
+            <div class="calculator m-3">
+                <textarea id="calculator" placeholder="Введите операцию"></textarea>
+                <textarea id="result" placeholder="Результат" disabled></textarea>
+                <br>
+                <button class="btn btn-warning" id="btn6">Получить результат</button>
+                <br>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <textarea class="form-control-plaintext " id="tasks" disabled rows="50">
+Требования:
+ — В предложении удалить все слова, состоящие более чем из 5 букв. Вывести результат в новом окне.
+ — В предложении удалить наиболее часто встречающуюся букву. Вывести результат в новом окне.
+ — Удалить в предложении все цифры. Вывести результат в новом окне.
+ — Реализовать изменение цвета фона при нажатии на кнопки
+ — Реализовать автоматическое прокручивание текста через определенное время
+ — Реализовать идущие часики в заголовке (Title)
+ — Вывести текущую дату в новом окне, нажав на кнопку
+ — Реализовать калькулятор в виде формы.
+            </textarea>
+        </div>
+    </div>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+            integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+            crossorigin="anonymous"></script>
+    <script src="static/js/main.js"></script>
+</body>
+</html>
